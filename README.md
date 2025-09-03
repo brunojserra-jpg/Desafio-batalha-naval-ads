@@ -35,3 +35,25 @@ Abra o arquivo **batalha_naval.c** em um compilador C de sua escolha, como:
 
 ### Passo 2: Compilar o Código
 No compilador escolhido, compile o código. Se estiver usando um compilador local, basta executar:
+
+
+
+
+### Passo 3: Executar o Programa
+Execute o programa compilado. O jogo exibirá um menu para escolher o nível de dificuldade:
+
+
+Escolha o nível de dificuldade:
+1. Novato
+2. Aventureiro
+3. Mestre
+
+Digite sua escolha: 2
+
+
+
+## Instruções por Plataforma
+
+- **Windows**: Use o [MinGW](https://sourceforge.net/projects/mingw/) ou o [TDM-GCC](https://jmeubank.github.io/tdm-gcc/). Após instalar, abra o terminal (Prompt de Comando) e siga as instruções de compilação e execução.
+- **Linux/Mac**: O GCC geralmente já vem instalado. Caso contrário, pode ser instalado via gerenciador de pacotes (`sudo apt install gcc` no Linux ou `brew install gcc` no Mac).
+- **Android**: Utilize o [Cxxdroid](https://play.google.com/store/apps/details?id=com.n0n3m4.bloc&hl=pt_BR&pli=1) para compilar e rodar o código.
